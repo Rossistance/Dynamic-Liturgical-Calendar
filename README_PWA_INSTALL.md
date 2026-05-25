@@ -1,22 +1,11 @@
-# Dynamic Liturgical Calendar PWA Package
+# Liturgical Calendar PWA Package
 
-This folder can be hosted as a web app. It includes:
-
-- `index.html`
-- `manifest.webmanifest`
-- `service-worker.js`
-- iOS/Android app icons
-
-## iOS Add to Home Screen
-
-iOS does not allow a true one-click PWA install directly from Messenger or from a local file.
+This PWA package includes the uploaded cartoon SVG vector season artwork embedded in the app.
 
 To install on iPhone/iPad:
-
-1. Host this folder on HTTPS, or open it from a web server.
+1. Host this folder on HTTPS.
 2. Open the URL in Safari.
-3. Tap the Share button.
-4. Tap **Add to Home Screen**.
-5. Confirm the app name and tap **Add**.
+3. Tap Share.
+4. Tap Add to Home Screen.
 
-After that it opens like a standalone app and can work offline after the first load.
+iOS does not support a true one-click install from Messenger or from a local file.

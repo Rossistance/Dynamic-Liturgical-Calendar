@@ -1,13 +1,13 @@
 {
   "name": "Dynamic Liturgical Calendar",
   "short_name": "Liturgical Calendar",
-  "description": "Offline dynamic illustrated liturgical calendar wheel.",
+  "description": "Dynamic illustrated liturgical calendar with uploaded cartoon SVG season vectors and optional icon titles.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#07101c",
-  "theme_color": "#07101c",
+  "background_color": "#fffaf0",
+  "theme_color": "#f7f3e9",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -22,8 +22,7 @@
     {
       "src": "icons/icon-180.png",
       "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
